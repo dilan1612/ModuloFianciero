@@ -11,7 +11,7 @@ const {
 routes.get('/',findAll)
 routes.get('/:id',findById)
 routes.post('/',save)
-routes.put('/', update)
-routes.delete('/',deleteD)
+routes.put('/:id', update)
+routes.delete('/:id',deleteD)
 
 module.exports = routes
